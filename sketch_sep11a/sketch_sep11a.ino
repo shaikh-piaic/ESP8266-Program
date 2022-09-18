@@ -24,9 +24,10 @@ void loop() {
   Serial.print("Current Humidity : ");
   Serial.print(h);
   Serial.print("%   ");
-  Serial.print("Current Temperature : ");
+  Serial.print("Current Temperature (C) : ");
   Serial.print(t);
-  Serial.println("C   ");
+  Serial.print("C   ");
+  Serial.print("Current Temperature (F) : ");
   Serial.print(f);
   Serial.println("F   ");
   delay(800);
